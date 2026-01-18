@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 512 512">
+  <defs>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g fill="none" fill-rule="evenodd" filter="url(#soft)">
+    <!-- Shield -->
+    <path
+      d="M256 72c-52 36-108 52-152 60v132c0 112 80 176 152 216 72-40 152-104 152-216V132c-44-8-100-24-152-60z"
+      fill="#FFFFFF" opacity="0.95"
+    />
+    <!-- Inner detail -->
+    <path
+      d="M256 124c-36 24-74 36-104 42v96c0 76 52 126 104 156 52-30 104-80 104-156v-96c-30-6-68-18-104-42z"
+      fill="#000000" opacity="0.10"
+    />
+
+    <!-- Center dot -->
+    <circle cx="256" cy="256" r="18" fill="#FFFFFF" opacity="0.96"/>
+
+    <!-- Waves -->
+    <path d="M292 216c22 22 22 58 0 80" stroke="#FFFFFF" stroke-width="22" stroke-linecap="round" opacity="0.90"/>
+    <path d="M320 192c38 38 38 100 0 138" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" opacity="0.65"/>
+  </g>
+</svg>
